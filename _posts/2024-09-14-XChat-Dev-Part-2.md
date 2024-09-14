@@ -5,8 +5,6 @@ categories: [Programming]
 tags: [Coding]
 ---
 
-# XChat დეველოპმენტი Part #2
-
 ## სერვერის საბაზისო მხარე
 
 ამ ვლოგში, სერვერის მხარეზე `Log(char* message, unsigned int verbose_level, bool is_initial)` ფუნქციას დავამატებ.
