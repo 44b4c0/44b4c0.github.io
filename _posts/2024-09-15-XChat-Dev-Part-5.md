@@ -280,4 +280,14 @@ int ReadFromClient(int server_socket, sockaddr_in server_address, std::vector<Cl
 }
 ```
 
-პრობლემა ისევ წრედების შექმნაა.
+პრობლემა ისევ წრედების შექმნაა, მაგრამ მგონი `server.cpp` ფაილში ჩამატებულმა ამ კოდის ლოგიკამ უშველა ყველაფერს:
+```cpp
+while(true == true){
+  if(client_vector.size() >= 200){
+    continue;
+  }
+  else{
+    std::thread read_thread(ReadFromClient, server_socket, server_address, client_vector);
+  }
+}
+```
