@@ -25,35 +25,35 @@ int HandleClient(int server_socket, sockaddr_in server_address, std::vector<Clie
 
 ```cpp
 while(true == true){
-        if(client_vector.size() >= 200){
-            sockaddr_in client_address;
-            socklen_t szof_client_address = sizeof(client_address);
-            int client_fd = accept(server_socket, reinterpret_cast<sockaddr*>(&client_address), &szof_client_address);
+    if(client_vector.size() >= 200){
+        sockaddr_in client_address;
+        socklen_t szof_client_address = sizeof(client_address);
+        int client_fd = accept(server_socket, reinterpret_cast<sockaddr*>(&client_address), &szof_client_address);
             
-            char data_buffer[NICKNAME_BUFFER_SIZE];
+        char data_buffer[NICKNAME_BUFFER_SIZE];
 
-            int received_bytes = recv(client_fd, data_buffer, NICKNAME_BUFFER_SIZE - 1, 0);
+        int received_bytes = recv(client_fd, data_buffer, NICKNAME_BUFFER_SIZE - 1, 0);
 
-            if(received_bytes < 0){
-                Log((char*)"Couldn't receive nickname from the client", 1, false);
-                close(client_fd);
-            }
-            else if(received_bytes == 0){
-                Log((char*)"Client disconnected", 1, false);
-                close(client_fd);
-            }
-            else{
-                data_buffer[received_bytes] = '\0';
-                char data_send_buffer[SPEC_CODE_BUFFER_SIZE];
-
-                send(client_fd, data_send_buffer, SPEC_CODE_BUFFER_SIZE, 0);
-                close(client_fd);
-            }
+        if(received_bytes < 0){
+            Log((char*)"Couldn't receive nickname from the client", 1, false);
+            close(client_fd);
+        }
+        else if(received_bytes == 0){
+            Log((char*)"Client disconnected", 1, false);
+            close(client_fd);
         }
         else{
-            std::thread handle_client_thread(HandleClient, server_socket, server_address);
+            data_buffer[received_bytes] = '\0';
+            char data_send_buffer[SPEC_CODE_BUFFER_SIZE];
+
+            send(client_fd, data_send_buffer, SPEC_CODE_BUFFER_SIZE, 0);
+            close(client_fd);
         }
     }
+    else{
+        std::thread handle_client_thread(HandleClient, server_socket, server_address);
+    }
+}
 ```
 
 ეს კოდის ნაწილი შეამოწმებს სავსეა თუ არა კლიენტთა სია და იმის მიხედვით მიიღებს გადაწყვეტილებას.
