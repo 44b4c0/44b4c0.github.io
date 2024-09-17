@@ -41,7 +41,7 @@ social:
     - https://twitter.com/44b4c0 # change to your Twitter homepage
     - https://github.com/44b4c0 # change to your GitHub homepage
     # Uncomment below to add more social links
-    https://www.facebook.com/44b4c0
+    - https://www.facebook.com/44b4c0
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
