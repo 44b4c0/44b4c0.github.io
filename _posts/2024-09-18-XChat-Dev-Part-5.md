@@ -1,6 +1,6 @@
 ---
 title: "XChat development ნაწილი #5"
-date: 2024-09-15 13:16:00 +0400
+date: 2024-09-18 13:16:00 +0400
 categories: [Programming]
 tags: [Coding]
 ---
