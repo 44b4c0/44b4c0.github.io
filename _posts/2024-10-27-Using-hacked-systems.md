@@ -1,5 +1,5 @@
 ---
-title: "საქართველოში "გაწეული" სისტემები???"
+title: "საქართველოში 'გაწეული' სისტემები???"
 date: 2024-10-27 22:34:00 +0400
 categories: [CyberSecurity,Hacking]
 tags: [Proxies]
