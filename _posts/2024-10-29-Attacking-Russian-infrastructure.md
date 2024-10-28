@@ -1,8 +1,8 @@
 ---
 title: "შეტევა რუსეთზე Part #1"
-date: 2024-10-27 22:34:00 +0400
+date: 2024-10-29 00:08:00 +0400
 categories: [CyberSecurity,Hacking]
-tags: [Proxies]
+tags: [Russia]
 ---
 
 ## დასაწყისი
