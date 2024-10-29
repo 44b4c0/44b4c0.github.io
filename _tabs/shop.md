@@ -1,5 +1,5 @@
 ---
 layout: page
-icon: fas fa-flask
+icon: fa-solid fa-shop
 order: 5
 ---
