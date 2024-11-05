@@ -1,7 +1,7 @@
 ---
 title: "Buffer overflow შეტევები"
 date: 2024-09-15 22:29:00 +0400
-categories: [Cybersecurity, Guides]
+categories: [CyberSecurity, Guides]
 tags: [Explanation]
 ---
 
