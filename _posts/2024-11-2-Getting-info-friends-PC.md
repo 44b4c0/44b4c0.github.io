@@ -1,7 +1,7 @@
 ---
 title: "ფესვების გაღრმავება ნათესავის კომპიუტერში ნაწილი #1"
 date: 2024-11-02 18:35:00 +0400
-categories: [Cybersecurity,Hacking]
+categories: [CyberSecurity,Hacking]
 tags: [Malware]
 ---
 
