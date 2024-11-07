@@ -1,5 +1,5 @@
 ---
-title: "`HTTP`-დან `Shell`-ში"
+title: "HTTP-დან Shell-ში"
 date: 2024-11-07 11:07:00 +0400
 categories: [CyberSecurity, Guides]
 tags: [Explanation]
