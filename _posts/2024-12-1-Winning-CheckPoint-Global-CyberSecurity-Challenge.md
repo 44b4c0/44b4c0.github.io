@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Global CyberSecurity გამოწვევა?!"
-date: 2024-11-29 19:25:00 +0400
+date: 2024-12-01 19:25:00 +0400
 categories: [CyberSecurity,CTFs]
 tags: [Web Exploitation]
 ---
