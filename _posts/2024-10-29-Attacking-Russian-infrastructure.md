@@ -1,5 +1,5 @@
 ---
-title: "შეტევა რუსეთზე ნაწილი #1"
+title: "~~შეტევა რუსეთზე ნაწილი #1~~"
 date: 2024-10-29 00:08:00 +0400
 categories: [CyberSecurity,Hacking]
 tags: [Russia]
